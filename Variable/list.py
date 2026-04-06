@@ -1,4 +1,4 @@
-# Lists are mutuable
+# Lists are mutable(changeable)...Lists are written in [] it can accept duplicate values, preservs order and
 age=[12,13,14,15,12,12,161,7,125,1]
 print(age)
 Name=[12,"Vaibhav"]
