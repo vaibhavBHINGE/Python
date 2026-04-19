@@ -1,7 +1,7 @@
 import os
 
 # Reading a file
-f = open('myfile.txt', 'r')  # 'r' is used to read the file
+f = open(r'F:\Gen AI\myfile.txt', 'r')  # 'r' is used to read the file
 result = f.read()  # calling the read function
 print(result)  # printing file content
 f.close()
@@ -33,3 +33,7 @@ if os.path.exists(path):
     print("File removed..")
 else:
     print("File not found")
+
+# removing folder
+os.rmdir(r"F:\Gen AI\Python\testing")
+print("removed folder....")
