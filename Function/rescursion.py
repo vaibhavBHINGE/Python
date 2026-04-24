@@ -1,4 +1,4 @@
-#returnign the factorial of the given number
+# Rescursion - returnign the factorial of the given number
 
 def fact(n):
      if(n==0):
