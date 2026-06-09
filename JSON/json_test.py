@@ -12,7 +12,7 @@ json_data=json.dumps(data)
 print(json_data)
 
 
-# Convrts JSON into a object 
+# Converts JSON into a object 
 
 response = '{"user": {"name": "Vaibhav"}}'
 js_data = json.loads(response)

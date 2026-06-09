@@ -1,10 +1,12 @@
 import json
 
-# Writting JSON file
+# Writing JSON file
 data={
-    "Nmae":"Vaibhav",
-    "age":23
+    "Name":"Vaibhav",
+    "age":23,
+    "City":"Pune"
 }
+
 with open("jsonFile.json", "w") as js_data:
     dt=json.dumps(data)
     js_data.write(dt)
